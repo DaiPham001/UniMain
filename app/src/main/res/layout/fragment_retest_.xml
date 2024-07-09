@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    tools:context=".Fragment.Retest_Fragment">
+
+    <LinearLayout
+        android:id="@+id/l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_height="30dp">
+            <RadioButton
+                android:id="@+id/radio_tl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thi Lại" />
+
+            <RadioButton
+                android:id="@+id/radiotct"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thi Cải Thiện" />
+        </RadioGroup>
+
+        <HorizontalScrollView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#0B0A0B"
+                    android:textSize="1dp" />
+                <TableRow>
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_gravity="center"
+                        android:text="STT"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_gravity="center"
+                        android:text="Mã môn học"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_gravity="center"
+                        android:text="Lớp học phần"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_gravity="center"
+                        android:text="Tên môn học"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_gravity="center"
+                        android:text="TC"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_gravity="center"
+                        android:text="Kêt quả lần 1"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_gravity="center"
+                        android:text="Ghi chu"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+                </TableRow>
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#0B0A0B"
+                    android:textSize="1dp" />
+
+                <TextView
+                    android:id="@+id/tv_nullt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:visibility="gone"
+                    android:text="Không tìm thấy học phần đang chờ đăng ký thi"
+                    android:textAlignment="center" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rcv_tl"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+
+            </TableLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_dktl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_change"
+        android:text="Đăng ký"
+        android:textAllCaps="false"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/v"
+        android:text="Môn Đa Đăng ký"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_dktl"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#0B0A0B"
+                    android:textSize="1dp" />
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_gravity="center"
+                        android:text="STT"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_gravity="center"
+                        android:text="Lớp học phần"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_gravity="center"
+                        android:text="Tên môn học"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_gravity="center"
+                        android:text="TC"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_gravity="center"
+                        android:text="Lệ phí"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_gravity="center"
+                        android:text="Ngày đăng ký"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#0B0A0B"
+                        android:textSize="10dp" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#0B0A0B"
+                    android:textSize="1dp" />
+
+                <TextView
+                    android:id="@+id/tv_nullt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:visibility="gone"
+                    android:text="Không tìm thấy học phần đã đăng ký thi trong học kỳ này"
+                    android:textAlignment="center" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rcv_ddk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/v" />
+                </LinearLayout>
+
+            </TableLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:id="@+id/tablayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_stt"
+            android:text="4"
+            android:layout_width="30dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/t"
+            android:visibility="gone"
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+
+        <TextView
+            android:id="@+id/tv_hoten_item"
+            android:text="Họ Tên"
+            android:visibility="gone"
+            android:textAlignment="center"
+            android:layout_width="120dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+        <TextView
+            android:id="@+id/tv_tenmon"
+            android:textAlignment="center"
+            android:text="Tên môn"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:layout_width="200dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+        <TextView
+            android:id="@+id/tv_stc"
+            android:text="4"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_width="100dp"/>
+        <TextView
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+
+        <TextView
+            android:id="@+id/tv_diemcc"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="120dp"
+            android:text="Chuyên cần"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_dhs1"
+                android:text="3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_dhs2"
+                android:text="3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_dhs3"
+                android:text="3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_width="70dp"/>
+        <TextView
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_diemthi1"
+                android:text="3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_diemthi2"
+                android:text="3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_diemthi"
+                android:text="3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+
+        <TextView
+            android:id="@+id/tv_diemtk"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+
+        <TextView
+            android:id="@+id/tv_td4"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_width="100dp"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+
+        <TextView
+            android:id="@+id/tv_diemchu"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="80dp"
+            android:text="Điểm chữ"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+
+        <TextView
+            android:id="@+id/tv_xeploai"
+            android:text="Xếp loại"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_width="80dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+        <TextView
+            android:id="@+id/tv_ghichu"
+            android:text="ghichu"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_width="80dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0B0A0B"
+            android:layout_height="match_parent"
+            android:layout_width="2dp"/>
+
+    </TableRow>
+    <TextView
+        android:textSize="2dp"
+        android:background="#0B0A0B"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"/>
+
+</TableLayout>

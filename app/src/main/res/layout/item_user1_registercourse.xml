@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_ur_rc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <RadioButton
+                android:id="@+id/radio_rc"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#0B0A0B"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/tv_stt_u_rg"
+                android:layout_width="40dp"
+                android:layout_gravity="center"
+                android:text="STT"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#0B0A0B"
+                android:textSize="10dp" />
+
+
+            <TextView
+                android:id="@+id/tv_u_malophp"
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:text="Mã lớp HP"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#0B0A0B"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/tv_u_tenmh"
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:text="Tên môn học"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#0B0A0B"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/tv_u_tinchi"
+                android:layout_width="40dp"
+                android:layout_gravity="center"
+                android:text="TC"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#0B0A0B"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/tv_u_hp"
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:text="Học phi"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#0B0A0B"
+                android:textSize="10dp" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#0B0A0B"
+            android:textSize="2dp" />
+
+    </TableLayout>
+</TableLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#5DCFDD"
+    tools:context=".Activity.ScreenActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_unimain"
+        android:src="@mipmap/unimain"
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="UniMain"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

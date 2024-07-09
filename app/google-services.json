@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "109302196175",
+    "project_id": "unimain-441eb",
+    "storage_bucket": "unimain-441eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109302196175:android:4fdd2fc41e2e412a4c94ba",
+        "android_client_info": {
+          "package_name": "com.example.uniman"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC86iXVH84nQJxH0T_l3u_uq1kvJ5ztTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
